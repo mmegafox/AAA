@@ -1,0 +1,108 @@
+.rh{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10% 0 10%;
+}
+.main-image{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: 200px;
+}
+.logotipe{
+    height: 35%;
+    width: 35%;
+    display: block;
+}
+.flutt{
+    justify-content: center;
+    height: 25%;
+    width: 25%;
+    display: block;
+}
+
+.main{
+    padding: 5% 5% 10% 5%;
+}
+
+
+.libriry{                                           /* сама формочка */
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 2%;
+    color: black;
+    justify-content: center;
+    height: 800px;
+}
+
+.images{                                        /* вствочные изображения */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 4%;
+}
+
+.discribe{                          /* описание текст для описания  */
+    background-color: white;
+    width: 30%;
+    color: black;
+}
+
+.position-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-thing:hover{
+    /* transform: scale(1.3); */
+    animation: nazvanie 2s alternate infinite;
+}
+
+@keyframes nazvanie{
+    from{transform: scale(1);
+    background: linear-gradient(to right, rgba(179, 255, 0, 0.543), rgba(255, 0, 0, 0.511));
+    }
+
+    to{transform: scale(1.5);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.543), rgba(0, 0, 0, 0.511));
+    }
+}
+
+.button-thing{
+    background: linear-gradient(to right, rgba(179, 255, 0, 0.543), rgba(255, 0, 0, 0.511));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.importont{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image--{
+    height: 400px;
+    width: 400px;
+}
+.image--:hover{
+    animation: kartinki 1s alternate infinite;
+}
+
+@keyframes kartinki {
+    from{transform: scale(1);}
+    to{transform: scale(1.3);}
+
+    0%{background: linear-gradient(toright)}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+
+}
